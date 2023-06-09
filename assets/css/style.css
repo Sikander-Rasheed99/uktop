@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header code start */
+
+
+header {
+    padding: 10px 0;
+    background: white;
+}
+
+header .navbar-nav .nav-item {
+    margin-left: 7px;
+}
+
+header .navbar-nav .nav-link {
+    color: black;
+}
+
+header .navbar-nav .nav-item span {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header .navbar-nav .nav-link {
+    padding: 0;
+}
+
+header .navbar-nav .nav-link.nav-link.btn {
+    background: #bd0134;
+    border-radius: 50px;
+    width: 105px;
+    font-size: 13px;
+    height: 37px;
+    line-height: 33px;
+    color: white;
+    font-weight: 500;
+}
+
+header .navbar-nav .nav-link.btn:hover {
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .3);
+}
+
+
+/* header code end  */
+
+
+/* banner start */
+
+.banner-sec {
+    padding: 0px 0 30px;
+    background-image: url(../img/banner-img.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner-sec .form p {
+    background: #bd0134;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 4px 0;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.banner-sec .form form {
+    background: #151f7d;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: -4px;
+}
+
+.banner-sec .form form input {
+    border: none;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    padding: 4px 10px;
+}
+
+.banner-sec .form form input:focus {
+    outline: 0;
+}
+
+.banner-sec .form form button {
+    background: #bd0134;
+    color: white;
+    border: 0;
+    width: 121px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 22px auto;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.banner-sec .content {
+    color: white;
+    padding: 43px 0;
+}
+
+.banner-sec .content .content-desc {
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.banner-sec .content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-sec .content p {
+    font-size: 17px;
+    margin-top: 44px;
+}
+
+
+.banner-sec .content .btn a {
+    background: white;
+    color: #bd0134;
+    width: 120px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    margin-top: 28px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* banner end  */
+
+
+/* writers start */
+
+.writers-sec {
+    padding: 80px 0;
+    background-image: url(../img/writers-bg.webp);
+    background-repeat: no-repeat;
+}
+
+.writers-sec .card {
+    border: none;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgb(0 0 0 / 15%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.writers-sec .card-1 {
+    margin-top: 35%;
+}
+
+.writers-sec .card .card-img img {
+    border-radius: 50%;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgb(0 0 0 / 15%);
+}
+
+.writers-sec .card .card-heading h4 {
+    margin-top: 20px;
+    color: #bd0134;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.writers-sec .card .card-heading p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #7d7d7d;
+}
+
+.writers-sec .card .reviews {
+    color: orange;
+}
+
+.writers-sec .card .card-desc {
+    margin-top: 20px;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.writers-sec .card .btn a {
+    background: #bd0134;
+    color: white;
+    margin: 0 auto;
+    width: 110px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.writers-sec .content .writer-content {
+    color: #bd0134;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.writers-sec .content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #161a2f;
+}
+
+
+.writers-sec .content p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: 400;
+    max-width: 265px;
+    margin: 0 auto;
+}
+
+/* writers end  */
+
+
+/* why us start */
+
+.whyUs-sec {
+    padding: 2px 0 60px;
+}
+
+.whyUs-sec .content .card {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, .075);
+    border: 1px solid rgba(0, 0, 0, .075);
+}
+
+.whyUs-sec .content .card h3 span{
+        color: #bd0134;
+}
+
+.whyUs-sec .content .card h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.whyUs-sec .content .card p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #4d4d4d;
+}
+
+/* why us end  */

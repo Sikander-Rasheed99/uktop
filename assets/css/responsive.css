@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1199px) {
+    header .navbar-nav .nav-item {
+        margin-left: 0px;
+    }
+
+    header .navbar-nav .nav-link.nav-link {
+        font-size: 13px;
+    }
+
+    header .navbar-nav .nav-link.nav-link.btn {
+        width: 98px;
+        font-size: 12px;
+        height: 34px;
+        line-height: 31px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .writers-sec {
+        background-position: bottom;
+        padding: 40px 0;
+    }
+
+    .writers-sec .card-1 {
+        margin-top: 9%;
+    }
+
+    header .navbar-nav .nav-item {
+        margin-bottom: 12px;
+    }
+
+    header .navbar-nav .nav-item span {
+        line-height: 35px;
+    }
+
+    .navbar-toggler {
+        color: white !important;
+        background: #bd0134;
+    }
+
+    .banner-sec {
+        background: #bd0134;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-sec {
+        background: transparent;
+    }
+
+    .banner-sec .content {
+        background: #bd0134;
+    }
+
+    .banner-sec .content {
+        padding: 9px 11px;
+    }
+
+    .banner-sec .content p {
+        font-size: 15px;
+        margin-top: 14px;
+        line-height: 1.5;
+    }
+
+    .banner-sec .content .mt-5 {
+        margin-top: 1rem !important;
+        max-width: 185px;
+    }
+
+    .banner-sec .content h1 {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .banner-sec .content .content-desc {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .banner-sec .content .btn a {
+        width: 105px;
+        height: 36px;
+        line-height: 36px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .banner-sec .form p {
+        font-size: 18px;
+    }
+
+    .banner-sec .mt-5 {
+        margin-top: 2rem !important;
+    }
+
+    .banner-sec .form form input {
+        height: 41px;
+        font-size: 14px;
+    }
+}
