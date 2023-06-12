@@ -42,6 +42,90 @@
     .banner-sec {
         background: #bd0134;
     }
+
+    .whyUs-sec .content img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .expert-sec .expert-slider .card p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .expert-sec .expert-slider .card {
+        padding: 20px;
+    }
+
+    .comeback-sec .content h3 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .solution-sec .content h4 {
+        font-size: 17px;
+    }
+
+    .solution-sec .content ul {
+        margin-top: 20px;
+    }
+
+    .solution-sec .content p {
+        font-size: 13px;
+    }
+
+    .solution-sec .content ul li {
+        font-size: 15px;
+    }
+
+    .solution-sec {
+        padding: 50px 46px;
+    }
+
+    .solution-sec .content img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .solution-sec .pt-3 {
+        padding-top: 0.4rem !important;
+    }
+
+    .solution-sec p {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+    }
+
+    .solution-sec .content .rewiews p:not(:last-child) {
+        font-size: 15px;
+    }
+
+    .love-sec .card .card-content h5 {
+        font-size: 17px;
+    }
+
+    .love-sec .card .card-content p {
+        font-size: 15px;
+    }
+
+    .love-sec .card .card-content {
+        padding: 13px;
+    }
+
+    .love-sec .content h3 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .dreams-sec .card .card-content p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .footer-sec .footer-img {
+        margin-right: auto !important;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -97,5 +181,126 @@
     .banner-sec .form form input {
         height: 41px;
         font-size: 14px;
+    }
+
+    .whyUs-sec .content .card h3 {
+        font-size: 30px;
+    }
+
+    .whyUs-sec .content .card p {
+        font-size: 15px;
+    }
+
+    .expert-sec h3 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comeback-sec .content h3 {
+        font-size: 30px;
+    }
+
+    .comeback-sec .content p {
+        font-size: 16px;
+    }
+
+    .comeback-sec {
+        padding: 10px 0;
+    }
+
+    .reserve-sec h3 {
+        font-size: 30px;
+    }
+
+    .reserve-sec h5 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .reserve-sec {
+        padding: 35px 0;
+    }
+
+    .dreams-sec .content h3 {
+        font-size: 30px;
+    }
+
+    .dreams-sec .content p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form .contact-form-desc {
+        padding: 30px;
+    }
+
+    .contact-form .contact-form-desc h3 {
+        margin-bottom: 16px;
+        margin-top: 14px;
+    }
+
+    .footer-sec .footer-img {
+        margin: inherit;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .solution-sec {
+        padding: 50px 5px;
+    }
+
+    .love-sec {
+        padding: 30px 0;
+    }
+
+    .love-sec .content h3 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .contact-form .contact-form-desc {
+        padding: 20px;
+    }
+
+    .contact-form .contact-form-desc h3 {
+        font-size: 25px;
+    }
+
+    .contact-form .contact-form-desc h5 {
+        font-size: 13px;
+    }
+
+    .contact-form .contact-form-desc p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .contact-form .contact-form-desc a {
+        font-size: 15px;
+    }
+
+    .contact-form .content .btn button {
+        height: 35px;
+        min-width: 97px;
+        font-size: 16px;
+    }
+
+    .contact-form .content form input {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .contact-form .content form textarea {
+        font-size: 13px;
+    }
+
+    .contact-form .content form select {
+        font-size: 13px;
+    }
+
+    .footer-sec p {
+        margin-bottom: 0;
     }
 }
