@@ -32,6 +32,18 @@ header .navbar-nav .nav-item {
 
 header .navbar-nav .nav-link {
     color: black;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+header .navbar-brand span {
+    font-size: 33px;
+    font-weight: 700;
+    /* line-height: 49px; */
+}
+
+header .navbar-brand .acedmic {
+    color: #bd0134;
 }
 
 header .navbar-nav .nav-item span {
@@ -48,9 +60,9 @@ header .navbar-nav .nav-link.nav-link.btn {
     background: #bd0134;
     border-radius: 50px;
     width: 105px;
-    font-size: 13px;
+    font-size: 14px;
     height: 37px;
-    line-height: 33px;
+    line-height: 34px;
     color: white;
     font-weight: 500;
 }
@@ -59,15 +71,6 @@ header .navbar-nav .nav-link.btn:hover {
     box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .3);
 }
 
-header .navbar-nav ul.dropdown-menu {
-    border-radius: 3px;
-    font-size: 14px;
-    padding: 10px 0;
-}
-
-header .navbar-nav ul.dropdown-menu li {
-    margin-bottom: 8px;
-}
 
 /* header code end  */
 
@@ -79,6 +82,7 @@ header .navbar-nav ul.dropdown-menu li {
     background-image: url(../img/banner-img.webp);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 70vw;
 }
 
 .banner-sec .form p {
@@ -128,7 +132,7 @@ header .navbar-nav ul.dropdown-menu li {
 
 .banner-sec .content {
     color: white;
-    padding: 43px 0;
+    padding: 5rem 0 43px 23rem;
 }
 
 .banner-sec .content .content-desc {
@@ -142,8 +146,10 @@ header .navbar-nav ul.dropdown-menu li {
 }
 
 .banner-sec .content p {
-    font-size: 17px;
-    margin-top: 44px;
+    font-size: 16px;
+    margin-top: 24px;
+    max-width: 428px;
+    line-height: 1.3;
 }
 
 
@@ -237,6 +243,7 @@ header .navbar-nav ul.dropdown-menu li {
     color: #161a2f;
 }
 
+
 .writers-sec .content p {
     margin-top: 20px;
     font-size: 16px;
@@ -299,6 +306,7 @@ header .navbar-nav ul.dropdown-menu li {
     border-radius: 0px;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, .075);
     border: 1px solid rgba(0, 0, 0, .075);
+    /* max-width: 255px; */
     min-height: 130px;
 }
 
@@ -493,6 +501,7 @@ button.slick-disabled {
 
 .comeback-sec .card p {
     font-size: 18px;
+    /* color: #4d4d4d; */
 }
 
 /* comback end  */
@@ -514,17 +523,6 @@ button.slick-disabled {
     font-size: 26px;
     font-weight: 500;
     margin-top: 20px;
-}
-
-.reserve-sec .blink-hard {
-    animation: blinker 1s step-end infinite;
-    color: #f4b200;
-}
-
-@keyframes blinker {
-    70% {
-        opacity: 0;
-    }
 }
 
 /* reserve start */
@@ -603,10 +601,6 @@ button.slick-disabled {
     font-size: 25px;
 }
 
-.solution-sec ul li {
-    list-style: disc !important;
-}
-
 .solution-sec .content ul {
     padding-left: 1rem;
     margin-top: 40px;
@@ -639,6 +633,7 @@ button.slick-disabled {
 /* solution end */
 
 /* love start */
+
 
 .love-sec {
     padding: 60px 0;
@@ -803,6 +798,7 @@ button.slick-disabled {
     margin-bottom: 5px;
 }
 
+
 .contact-form .content form input {
     border: 1px solid #ced4da;
     border-radius: 7px;
@@ -924,12 +920,3 @@ button.slick-disabled {
 }
 
 /* footer end  */
-
-
-/* brands start */
-
-.brands-sec{
-    padding-top: 60px;
-}
-
-/* brands end */
